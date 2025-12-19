@@ -1,0 +1,9 @@
+version: "1.0"
+projectName: SIQA_GIT_1914Project
+runtimes:
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: fld_156567677_stage00.projects.flb8b32044721a45e39c39b954374e6f19.integrations:GlobalVar
+    type: flow
+    stepId: /0
+    reference: fld_156567677_stage00.projects.flb8b32044721a45e39c39b954374e6f19.WmPackageServiceProvider.GB_1:readGlobalvariable
