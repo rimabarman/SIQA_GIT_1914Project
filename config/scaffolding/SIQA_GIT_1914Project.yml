@@ -7,10 +7,17 @@ packages:
   gitUrl: https://github.com/rimabarman
   gitUsername: rimabarman
   gitBranch: main
+- name: DADA_GlobalVariable1
+  gitServerName: rimaSCName
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: rimabarman
+  gitBranch: main
 services:
 - serviceName: project.siqa_git_1914.integrations:Sum
   packages:
   - name: SIQA_GIT_1914Project
+    version: "1.0"
+  - name: DADA_GlobalVariable1
     version: "1.0"
 - serviceName: pub.math:addInts
   packages:
@@ -23,6 +30,8 @@ services:
 - serviceName: project.siqa_git_1914.integrations:deepclonetest
   packages:
   - name: SIQA_GIT_1914Project
+    version: "1.0"
+  - name: DADA_GlobalVariable1
     version: "1.0"
 - serviceName: pub.string:stringToBytes
   packages:
