@@ -7,6 +7,39 @@ packages:
   gitUrl: https://github.com/rimabarman
   gitUsername: rimabarman
   gitBranch: main
+services:
+- serviceName: project.siqa_git_1914.integrations:Sum
+  packages:
+  - name: SIQA_GIT_1914Project
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 12.0.0.0.694
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 12.0.0.0.694
+- serviceName: project.siqa_git_1914.integrations:deepclonetest
+  packages:
+  - name: SIQA_GIT_1914Project
+    version: "1.0"
+- serviceName: pub.string:stringToBytes
+  packages:
+  - name: WmPublic
+    version: 12.0.0.0.694
+- serviceName: pub.utils:deepClone
+  packages:
+  - name: WmPublic
+    version: 12.0.0.0.694
+- serviceName: pub.string:bytesToString
+  packages:
+  - name: WmPublic
+    version: 12.0.0.0.694
+- serviceName: pub.alert:emit
+  packages:
+  - name: WmPublic
+    version: 12.0.0.0.694
 configurationVariables:
   jdbc.Embedded-Database-Pool.waitingThread: "0"
   jdbc.SAP-TxStore-Pool.snoopparms: ddtdbg.ProtocolTraceEnable=true;ddtdbg.ProtocolTraceMaxline=16;ddtdbg.ProtocolTraceLocation=logs/snoop/SAP-TxStore-Pool.log;ddtdbg.ProtocolTraceShowTime=true
