@@ -1,7 +1,7 @@
 version: "1.0"
 projectName: SIQA_GIT_1914Project
 runtimes:
-- runtimeAlias: Cloud Designtime
+- runtimeAlias: SIQA_ERT_1916
   assets:
   - name: fld_156567677_stage00.projects.flb8b32044721a45e39c39b954374e6f19.integrations:GlobalVar
     type: flow
